@@ -1,0 +1,96 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #234;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+/* Home page */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #ddd;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #234;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.services {
+  text-align: center;
+  padding: 30px;
+}
+
+.service {
+  background-color: white;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 400px;
+  border-radius: 5px;
+}
+
+/* Contact page */
+.contact {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #234;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover,
+.btn:hover {
+  background-color: #456;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #234;
+  color: white;
+}
